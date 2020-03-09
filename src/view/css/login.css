@@ -1,0 +1,142 @@
+/*=======================   Estilo do body do login =====================================*/
+
+/* fazendo o estilo do body */
+body{
+
+    margin: 0;  /* espaço fora de uma caixa */
+    padding: 0; /* espaço dentro de uma caixa */
+    font-family: sans-serif; 
+    background: white;
+
+}
+
+/*==================================================================================== */
+
+img{
+
+    width: 100px;
+    height: 100px;
+
+}
+
+/*====================================================================================
+
+
+
+
+
+/*=======================   Estilo do form que da o molde a box principal ========================*/
+
+/* fazendo o estilo do form, aqui é onde iremos estilizar a box
+   do login. */
+form{
+
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    border: 1.5px solid black;
+    top: 50%; /*centralizando a box */
+    left: 50%; /* centralizando a box */
+    transform: translate(-50%,-50%); /*centralizando a box */
+    background: white;
+    text-align: center;
+    border-radius: 25px; /* deixando as bordas arredondadas */
+    border-color: black;
+
+}
+
+/*=================================================================================================
+
+
+
+
+
+/*=======================   Estilo dos inputs de senha e matricula ========================*/
+
+/* fazendo o estilo dos inputs */
+input[type="text"], input[type="password"]{
+
+    background: none;
+    display: block; /* centralizando input na box */
+    margin: 20px auto; /* margem entre os inputs */
+    text-align: left;
+    color: black;
+    border: 1.5px solid black; /* definindo o estilo da borda */
+    padding: 14px 10px;
+    width: 200px; /* largura dos inputs */
+    outline: none; /* caixas que ficam em volta das bordas, deixar oculto */
+    transition: 0.50s; /* tempo em que a cor das bordas irá mudar */
+    font-size: 14px; /* tamanho da fonte dentro das inputs */
+    border-radius: 15px; /* deixando as bordas arredondadas */
+
+}
+
+/* quando formos escrever em alguma das inputs a caixa
+   ficará com as bordas de outra cor */
+input[type="text"]:focus, input[type="password"]:focus{
+
+    width: 200px;
+    border-color: #27ae60; /* cor que será usada quando as inputs forem clicadas */
+
+}
+
+/*=================================================================================
+
+
+
+
+
+/*=======================   Botão para enviar os dados ==========================*/
+
+/* fazendo o estilo do submit */
+input[type="submit"]{
+
+    border: 0;
+    background: none;
+    display: block; /* centralizando a input */
+    margin: 20px auto;
+    text-align: center; /* alinhando o texto da input */
+    color: black;
+    border: 1.5px solid black; /* definindo estilo da borda */
+    padding: 14px 40px;
+    outline: none;
+    transition: 0.30s;
+    font-size: 14px;
+    border-radius: 30px; /* arredondando as bordas do botão */ 
+    cursor: pointer; /* quando o mouse passar por cima, muda a cor */
+
+}
+
+/* personalizando o submit, quando passar o mouse por cima
+   o espaço do botão irá trocar de cor */
+input[type="submit"]:hover{
+
+    border: #27ae60;
+    background: #27ae60;
+
+}
+
+/*=================================================================================
+
+
+
+
+
+/*=======================   Estilo dos links do login  ============================*/
+
+/* fazendo o estilo dos links para as outras páginas */
+a{
+
+    color: #27ae60;
+    text-decoration: none; /* tirando o underline do link inicial */
+    
+}
+
+/* quando passa o mouse por cima do link, muda a cor do link */
+a:hover{
+
+    text-decoration: underline; /* quando passar o mouse por cima, o link fica com underline */
+
+}
+
+/*=================================================================================
