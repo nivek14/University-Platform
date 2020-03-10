@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/server/server"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Squid-Team/University-Platform/issues"
   },
-  "homepage": "https://github.com/Squid-Team/University-Platform#readme"
+  "homepage": "https://github.com/Squid-Team/University-Platform#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
