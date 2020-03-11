@@ -1,0 +1,221 @@
+body{
+
+    margin: 0;  /* espaço fora de uma caixa */
+    padding: 0; /* espaço dentro de uma caixa */
+    font-family: sans-serif; 
+    background: #e0ded9;
+
+}
+
+
+#cadastro form p{
+
+    margin-top: 5px;
+
+}
+
+
+#cadastro img{
+    
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+#cadastro form{
+
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    border: 1.5px solid black;
+    top: 50%; /*centralizando a box */
+    left: 50%; /* centralizando a box */
+    transform: translate(-50%,-50%); /*centralizando a box */
+    background: white;
+    text-align: center;
+    border-radius: 25px; /* deixando as bordas arredondadas */
+    border-color: black;
+
+
+}
+
+/* ============================================================== */
+
+#cadastro form label[for="perfil_cad"]{
+
+    text-align: inherit;
+   
+}
+
+
+#cadastro form div[id="perfil_cad"]{
+
+    padding-top: 5px;
+
+}
+
+
+#cadastro form select{
+
+    border: 1.5px solid;
+    border-color: black;
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px;
+    outline: none;
+    
+}
+
+
+#cadastro form select:hover{
+
+    border-color: #27ae60;
+    
+}
+
+/* ============================================================== */
+
+#cadastro form label[for="verificar_cad"]{
+
+    text-align: inherit;
+
+}
+
+
+#cadastro form div[id="verificar_cad"]{
+
+    padding-top: 5px;
+
+}
+
+
+#cadastro form div[id="verificar_cad"] input[name="cpf"], input[name="siape"]{
+
+    border: 1.5px solid;
+    border-color: black;
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px;
+    outline: none;
+
+}
+
+
+/*#cadastro form div[id="verificar_cad"] input[name="cpf"], input[name="siape"]:hover{
+
+    border-color: #27ae60;
+
+}*/
+
+/* ============================================================== */
+
+#cadastro form label[for="dados_cad"]{
+
+    text-align: inherit;
+
+}
+
+
+#cadastro form div[id="dados_cad"]{
+
+    padding-top: 5px;
+
+}
+
+
+#cadastro form div[id="dados_cad"] input[name="primeiro"], input[name="segundo"], input[type="email"], input[name="cidade"]{
+
+    border: 1.5px solid;
+    border-color: black;
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px;
+    outline: none;
+
+}
+
+
+#cadastro form div[id="dados_cad"] input[name="primeiro"], input[name="segundo"]{
+
+    margin-bottom: 5px;
+
+}
+
+
+/*#cadastro form div[id="dados_cad"] input[name="primeiro"], input[name="segundo"], input[type="email"], input[name="cidade"]:hover{
+
+    border-color: #27ae60;
+
+}*/
+
+
+/* ============================================================== */
+
+#cadastro form label[for="senha_cad"]{
+
+    text-align: inherit;
+
+}
+
+
+#cadastro form div[id="senha_cad"]{
+
+    padding-top: 5px;
+
+}
+
+
+#cadastro form div[id="senha_cad"] input[name="senhaEscolhida"], input[name="senhaConfirmada"]{
+
+    border: 1.5px solid;
+    border-color: black;
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px;
+    outline: none;
+
+}
+
+
+#cadastro form div[id="senha_cad"] input[name="senhaEscolhida"], input[name="senhaConfirmada"]{
+
+    margin-bottom: 5px;
+
+}
+
+
+/*#cadastro form div[id="senha_cad"] input[name="senhaEscolhida"], input[name="senhaConfirmada"]:hover{
+
+    border-color: #27ae60;
+
+}*/
+
+
+/* ============================================================== */
+
+#cadastro form input[type="submit"]{
+
+    border: 0;
+    background: none;
+    display: block; /* centralizando a input */
+    margin: 20px auto;
+    text-align: center; /* alinhando o texto da input */
+    color: black;
+    border: 1.5px solid black; /* definindo estilo da borda */
+    padding: 14px 40px;
+    outline: none;
+    transition: 0.30s;
+    font-size: 14px;
+    border-radius: 30px; /* arredondando as bordas do botão */ 
+    cursor: pointer; /* quando o mouse passar por cima, muda a cor */
+
+}
+
+
+#cadastro form input[type="submit"]:hover{
+
+    border: #27ae60;
+    background: #27ae60;
+
+}

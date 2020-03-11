@@ -12,7 +12,7 @@ body{
 
 /*==================================================================================== */
 
-img{
+#login img{
 
     width: 100px;
     height: 100px;
@@ -29,7 +29,7 @@ img{
 
 /* fazendo o estilo do form, aqui é onde iremos estilizar a box
    do login. */
-form{
+#login form{
 
     width: 300px;
     padding: 40px;
@@ -54,7 +54,7 @@ form{
 /*=======================   Estilo dos inputs de senha e matricula ========================*/
 
 /* fazendo o estilo dos inputs */
-input[type="text"], input[type="password"]{
+#login input[type="text"], input[type="password"]{
 
     background: none;
     display: block; /* centralizando input na box */
@@ -73,7 +73,7 @@ input[type="text"], input[type="password"]{
 
 /* quando formos escrever em alguma das inputs a caixa
    ficará com as bordas de outra cor */
-input[type="text"]:focus, input[type="password"]:focus{
+#login input[type="text"]:focus, input[type="password"]:focus{
 
     width: 200px;
     border-color: #27ae60; /* cor que será usada quando as inputs forem clicadas */
@@ -89,7 +89,7 @@ input[type="text"]:focus, input[type="password"]:focus{
 /*=======================   Botão para enviar os dados ==========================*/
 
 /* fazendo o estilo do submit */
-input[type="submit"]{
+#login input[type="submit"]{
 
     border: 0;
     background: none;
@@ -109,7 +109,7 @@ input[type="submit"]{
 
 /* personalizando o submit, quando passar o mouse por cima
    o espaço do botão irá trocar de cor */
-input[type="submit"]:hover{
+#login input[type="submit"]:hover{
 
     border: #27ae60;
     background: #27ae60;
@@ -125,7 +125,7 @@ input[type="submit"]:hover{
 /*=======================   Estilo dos links do login  ============================*/
 
 /* fazendo o estilo dos links para as outras páginas */
-a{
+#login a{
 
     color: #27ae60;
     text-decoration: none; /* tirando o underline do link inicial */
@@ -133,7 +133,7 @@ a{
 }
 
 /* quando passa o mouse por cima do link, muda a cor do link */
-a:hover{
+#login a:hover{
 
     text-decoration: underline; /* quando passar o mouse por cima, o link fica com underline */
 

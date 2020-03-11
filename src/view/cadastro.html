@@ -3,12 +3,74 @@
 
     <head>
 
+        <meta charset="utf-8">
+        <title>Cadastro</title>
+        <link rel="stylesheet" href="css/cadastro.css">
+        <link rel="shortcut icon" href="img/titleIcon.ico">
 
     </head>
 
 
     <body>
         
+        <div id="cadastro">
+
+            <form method="POST" action="">
+                
+                <img src="img/logo2.png" alt= "error" width=300 height=90/> 
+
+                <p>
+                    <label for="perfil_cad">Escolha seu perfil, referente a sua posição na universidade</label>
+
+                    <div id=""perfil_cad>
+                        <select>
+                            <option value="Aluno">Discente(Aluno)</option>
+                            <option value="Professor">Docente(Professor)</option>
+                            <option value="STA">STA(Servidor técnico admistrativo</option>
+                        </select>
+                    </div>
+                </p>    
+
+
+                <p>
+                    <label for="verificar_cad">Informar CPF, SIAPE ou Número de matrícula</label>
+
+                    <div id="verificar_cad">
+                        <input type="text" name="cpf" placeholder="CPF" required="required">
+                        <input type="text" name="siape" placeholder="Siape/Num.Matricula" required="required">
+                    </div>
+                </p>
+
+
+                <p>
+                    <label for="dados_cad">Informar seus dados gerais</label>
+
+                    <div id="dados_cad">
+                        <input type="text" name="primeiro" placeholder="Nome" required="required">
+                        <input type="text" name="segundo" placeholder="Sobrenome" required="required">
+                        <input type="email" name="" placeholder="E-mail" required="required">
+                        <input type="text" name="cidade" placeholder="cidade" required="required"> 
+                    </div>
+                </p>
+
+
+                <p>
+                    <label for="senha_cad">Informar sua senha</label>
+
+                    <div id="senha_cad">
+                        <input type="password" name="senhaEscolhida" placeholder="Senha" required="required">
+                        <input type="password" name="senhaConfirmada" placeholder="Confirmar Senha" required="required">
+                    </div>
+
+                </p>
+
+                <input type="submit" name="" placeholder="Registrar">
+            
+            </form>
+
+        </div>
+
+
     </body>
 
 
