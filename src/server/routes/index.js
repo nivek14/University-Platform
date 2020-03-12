@@ -13,4 +13,8 @@ routes.get('/', (req, res) => {
     `);
 });
 
+routes.post('/', (req,res) => {
+    res.send('dados recebidos com sucesso');
+});
+
 module.exports = routes; 
